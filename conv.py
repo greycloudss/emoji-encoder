@@ -41,7 +41,7 @@ def decode_emoji(s):
     return s[:i],b.decode("utf-8")
 
 
-mode = int(input("1. encode\n2. decode"))
+mode = int(input("1. encode\n2. decode\n>"))
 
 answer = ""
 
